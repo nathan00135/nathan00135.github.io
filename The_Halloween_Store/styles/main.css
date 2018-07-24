@@ -1,0 +1,138 @@
+
+
+/*changing the default font to sans-serif */ 
+*{
+    font-family: sans-serif;
+}
+
+    html 
+    {
+    background-image: url("../images/bats.gif");
+    background-repeat: repeat repeat;
+    margin: 20px;
+    }
+
+    body 
+    {
+        width: 800px;
+        align-content: center;
+        background-color: white;
+        position: relative;
+        margin: auto auto auto auto;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-right: 6px;
+        padding-left: 6px;
+        box-shadow: 8px 8px 8px 8px black;
+        }
+
+        header 
+        {
+            border-style: solid;
+            border-color: transparent;
+            border-bottom-color: black;
+            background: linear-gradient(45deg, white, orange, orange, black); 
+            padding: 0px 0px 0px 0px;
+            margin: 0px;
+            width: 800px; 
+        }
+
+        #sidebar 
+        {
+            width: 160px;
+            float: left;
+            background-color: white;
+            word-wrap: break-word; 
+            overflow: hidden; 
+        }
+        
+        #mainContent  
+        {
+            width: 640px;
+            float: right;
+            background-color: white;
+        }
+
+        #unit
+        {
+            margin: 0 auto;
+            width: 800px; 	
+        }
+        
+
+/*changing the sizes of headings for h1*/
+h1 
+{
+    font-size: 150%;
+}
+/*changing the size, style, adding shadow and color of headings for h2*/
+h2
+{
+    font-size: 200%;
+}
+/*changing the sizes of headings for h3*/
+h3
+{
+    font-size: 120%;
+}
+/*changing the indent of header for h3*/
+header h3
+{
+    text-indent: 40px;
+}
+/*changing the proporties of header h2*/
+header h2
+{
+    font-size: 200%;
+    text-indent:40px;
+}
+/*changing the size of the first letter for h1*/
+h1::first-letter
+{
+    font-size: 180%;
+}
+/*floating the image left*/
+img
+{
+    float: left;
+}
+/*changing the color and making bold for hyperlinks*/
+a
+{
+    color:orange;
+    font-weight: bold;
+}
+/*changing the color and making bold for visited hyperlinks*/
+a:visited
+{
+    color:orange;
+    font-weight: bold;
+}
+/*while hovering links, they will be displayed bold and green*/
+a:hover
+{
+    color:Green;
+    font-weight: bold;
+}
+/*6 pixel margin for our list*/
+li
+{
+    margin: 6px 0;
+}
+/*changing our font size smaller and centering it on the page*/
+footer
+{
+    bottom: 0;
+    clear: both;
+    width: 800px;
+    background-color: white;
+    font-size:smaller;
+    text-align: center;
+    border-style: solid;
+    border-color: transparent;
+    position: absolute;
+    border-top-color: black;
+    background: linear-gradient(45deg, black, orange, orange, white); 
+    padding: 0  px 0px 0px 0px;
+    margin: 0px;
+}
